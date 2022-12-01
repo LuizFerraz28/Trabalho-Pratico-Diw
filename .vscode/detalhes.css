@@ -1,0 +1,39 @@
+.bold {
+  font-weight: bold;
+}
+
+.detailed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+
+  padding: 20px 10% 10%;
+}
+
+.detailed-container img {
+  max-height: 500px;
+   width: 1000px;
+}
+
+.detailed-container p {
+  margin: 0 auto 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+  .detailed-container img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .detailed-container img {
+    height: 200px;
+  }
+}
+
